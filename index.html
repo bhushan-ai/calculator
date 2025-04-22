@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h2>Calculator</h2>
+      <input type="text" id="result" readonly />
+      <div class="buttons">
+        <button onclick="clearAll()">AC</button>
+        <button onclick="delOneEle()">DEL</button>
+        <button onclick="noEvaluate('%')">%</button>
+        <button onclick="noEvaluate('+')">+</button>
+
+        <button onclick="noEvaluate('7')">7</button>
+        <button onclick="noEvaluate('8')">8</button>
+        <button onclick="noEvaluate('9')">9</button>
+        <button onclick="noEvaluate('-')">-</button>
+
+        <button onclick="noEvaluate('4')">4</button>
+        <button onclick="noEvaluate('5')">5</button>
+        <button onclick="noEvaluate('6')">6</button>
+        <button onclick="noEvaluate('*')">×</button>
+
+        <button onclick="noEvaluate('1')">1</button>
+        <button onclick="noEvaluate('2')">2</button>
+        <button onclick="noEvaluate('3')">3</button>
+        <button onclick="noEvaluate('/')">/</button>
+
+        <button onclick="noEvaluate('0')">0</button>
+        <button onclick="noEvaluate('00')">00</button>
+        <button onclick="noEvaluate('.')">.</button>
+        <button class="equal" id="equal-btn">=</button>
+      </div>
+    </div>
+    <script src="script.js "></script>
+  </body>
+</html>
